@@ -1,7 +1,7 @@
 import { useState } from 'react';
 import './App.css';
 import Navbar from './components/Navbar';
-import PlantList from './components/PlantList';
+import ProductList from './components/ProductList';
 import Cart from './components/Cart';
 import Footer from './components/Footer';
 import plants from './data/plants';
@@ -134,7 +134,7 @@ function App() {
         </section>
 
         {/* Plants Section */}
-        <PlantList
+        <ProductList
           plants={plants}
           onAddToCart={addToCart}
         />
